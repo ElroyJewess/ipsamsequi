@@ -1,0 +1,59 @@
+{
+  "name": "ipsamsequi",
+  "version": "1.0.0",
+  "description": "Google Search Node JS API via SerpApi.com",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "mocha -R test && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElroyJewess/ipsamsequi.git"
+  },
+  "keywords": [
+    "google",
+    "et",
+    "quaerat",
+    "ratione",
+    "consequatur",
+    "suscipit",
+    "molestias",
+    "image",
+    "ratione",
+    "eveniet",
+    "rerum",
+    "serpapi",
+    "image",
+    "news",
+    "seo",
+    "walmart",
+    "est",
+    "sit",
+    "scholar",
+    "bing",
+    "baidu",
+    "dolore",
+    "youtube"
+  ],
+  "devDependencies": {
+    "braces": ">=2.3.1",
+    "expect": "^26.4.2",
+    "minimist": ">=0.2.1",
+    "mocha": "^8.1.3"
+  },
+  "author": "LadariusJacobi",
+  "license": "ISC",
+  "dependencies": {},
+  "main": "lib/main.js",
+  "files": [
+    "lib/BaiduSearch.js",
+    "lib/BingSearch.js",
+    "lib/EbaySearch.js",
+    "lib/GoogleSearch.js",
+    "lib/SerpApiSearch.js",
+    "lib/WalmartSearch.js",
+    "lib/YahooSearch.js",
+    "lib/YandexSearch.js",
+    "lib/YoutubeSearch.js"
+  ]
+}
